@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+    <mapping stop-on-errors="false" map-null="false">
+        <class-a>com.company.customers.model.entities.Customer</class-a>
+        <class-b>com.company.customers.model.dtos.CustomerDTO</class-b>
+        <field>
+            <a>contact.phone</a>
+            <b>contactPhone</b>
+        </field>
+        <field>
+            <a>contact.country.id</a>
+            <b>contactCountryId</b>
+        </field>
+        <field>
+            <a>contact.country.name</a>
+            <b>contactCountryName</b>
+        </field>
+
+        <field>
+            <a>contact.state</a>
+            <b>contactState</b>
+        </field>
+    </mapping>
+</mappings>
